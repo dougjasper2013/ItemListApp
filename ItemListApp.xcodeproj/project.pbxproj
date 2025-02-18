@@ -11,6 +11,8 @@
 		8043FA962D64BEDF00727627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8043FA952D64BEDF00727627 /* ContentView.swift */; };
 		8043FA982D64BEE000727627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8043FA972D64BEE000727627 /* Assets.xcassets */; };
 		8043FA9B2D64BEE000727627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8043FA9A2D64BEE000727627 /* Preview Assets.xcassets */; };
+		80EF0AB62D64C785003849B8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF0AB52D64C785003849B8 /* Item.swift */; };
+		80EF0AB82D64C88D003849B8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF0AB72D64C88D003849B8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8043FA952D64BEDF00727627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8043FA972D64BEE000727627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8043FA9A2D64BEE000727627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80EF0AB52D64C785003849B8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		80EF0AB72D64C88D003849B8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				8043FA952D64BEDF00727627 /* ContentView.swift */,
 				8043FA972D64BEE000727627 /* Assets.xcassets */,
 				8043FA992D64BEE000727627 /* Preview Content */,
+				80EF0AB52D64C785003849B8 /* Item.swift */,
+				80EF0AB72D64C88D003849B8 /* DetailView.swift */,
 			);
 			path = ItemListApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8043FA962D64BEDF00727627 /* ContentView.swift in Sources */,
+				80EF0AB82D64C88D003849B8 /* DetailView.swift in Sources */,
+				80EF0AB62D64C785003849B8 /* Item.swift in Sources */,
 				8043FA942D64BEDF00727627 /* ItemListAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
